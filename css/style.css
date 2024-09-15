@@ -1,5 +1,16 @@
 body {
-    height: 100%;
-    width: 100%;
     background-color: rgb(243, 229, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.recipe_guide {
+    height: 1138px;
+    width: 490px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    
+}
+
