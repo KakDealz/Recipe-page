@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.woff2) format('woff2');
+    font-weight: 400 600 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../fonts/young-serif/YoungSerif-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(243, 229, 216);
     display: flex;
@@ -21,11 +35,16 @@ img {
 }
 
 p {
-    font-size: 16px;
+    font-size: 11px;
     color: hsl(24, 5%, 18%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
     color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    margin-bottom: -1px;
 }
 
