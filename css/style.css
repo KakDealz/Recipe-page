@@ -29,7 +29,7 @@ body {
     padding: 26px;
 }
 
-img {
+.preparation, img {
     width: 438px;
     border-radius: 9px;
 }
@@ -48,3 +48,29 @@ h1 {
     margin-bottom: -1px;
 }
 
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.preparation h3,ul {
+    margin: 0;
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.preparation li {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+
+strong {
+    color: hsl(30, 10%, 34%)
+}
